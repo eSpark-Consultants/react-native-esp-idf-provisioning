@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.espidfprovisioning" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+5-->/Users/espark/Documents/GitHub/ebuu-mobile-app/node_modules/@eSpark-Consultants/react-native-esp-idf-provisioning/android/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3770244026489450175.xml
+6
+7</manifest>
