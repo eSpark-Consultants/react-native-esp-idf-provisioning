@@ -1,4 +1,5 @@
 apply plugin: "kotlin-android"
+apply plugin: "com.android.library"
 
 buildscript {
   repositories {
@@ -15,7 +16,6 @@ def isNewArchitectureEnabled() {
   return rootProject.hasProperty("newArchEnabled") && rootProject.getProperty("newArchEnabled") == "true"
 }
 
-apply plugin: "com.android.library"
 
 
 def appProject = rootProject.allprojects.find { it.plugins.hasPlugin('com.android.application') }
