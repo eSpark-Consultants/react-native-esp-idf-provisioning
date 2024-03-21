@@ -1,6 +1,6 @@
 {
   "name": "@espark-consultants/react-native-esp-idf-provisioning",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Android and iOS wrapper for ESP IDF provisioning",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
