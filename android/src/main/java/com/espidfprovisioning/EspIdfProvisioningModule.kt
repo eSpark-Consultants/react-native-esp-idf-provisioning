@@ -120,7 +120,7 @@ class EspIdfProvisioningModule internal constructor(context: ReactApplicationCon
             val resultMap = Arguments.createMap()
             resultMap.putString("name", item.wifiName)
             resultMap.putString("transport", transport)
-            resultMap.putInt("security", item.se)
+            resultMap.putInt("security", item.security)
             resultArray.pushMap(resultMap)
           }
           promise?.resolve(resultArray)
